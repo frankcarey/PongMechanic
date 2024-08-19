@@ -10,4 +10,4 @@ func _physics_process(delta: float) -> void:
 		player.direction.y -= 1
 	if Input.is_action_pressed("1p_down"):
 		player.direction.y += 1
-
+	

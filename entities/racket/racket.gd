@@ -7,4 +7,3 @@ func _physics_process(delta: float) -> void:
 	if direction.length() > 0:
 		direction = direction.normalized() * move_speed
 		move_and_collide(direction)
-

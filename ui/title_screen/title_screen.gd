@@ -12,4 +12,3 @@ func _on_1p_game_pressed() -> void:
 
 func _on_2p_game_pressed() -> void:
 	emit_signal("start_2p_game")
-

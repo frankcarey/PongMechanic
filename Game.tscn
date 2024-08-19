@@ -15,13 +15,18 @@ script = ExtResource("1_a80ju")
 
 [node name="Field" parent="." instance=ExtResource("1_whlur")]
 
+[node name="Node2D" type="Node2D" parent="Field"]
+
 [node name="Racket" parent="." instance=ExtResource("2_tdpd5")]
-position = Vector2(100, 540)
+visible = true
+position = Vector2(130, 540)
 
 [node name="Player1InputComponent" type="Node" parent="Racket"]
+editor_description = "Controls the Movement of a Racket via Player Input"
 script = ExtResource("4_fyuff")
 
 [node name="Racket2" parent="." instance=ExtResource("2_tdpd5")]
+visible = true
 position = Vector2(1821, 540)
 
 [node name="Player2InputComponent" type="Node" parent="Racket2"]

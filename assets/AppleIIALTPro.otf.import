@@ -15,6 +15,7 @@ dest_files=["res://.godot/imported/AppleIIALTPro.otf-40438dae71b0ff95798a422e182
 Rendering=null
 antialiasing=1
 generate_mipmaps=false
+disable_embedded_bitmaps=true
 multichannel_signed_distance_field=false
 msdf_pixel_range=8
 msdf_size=48
